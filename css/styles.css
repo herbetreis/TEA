@@ -1,4 +1,4 @@
-.login-page {
+.login-page,.register-page {
   width: 360px;
   padding: 8% 0 0;
   margin: auto;
@@ -96,4 +96,3 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
 }
-
