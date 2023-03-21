@@ -1,8 +1,8 @@
 <?php
 // Informações de conexão com o banco de dados
 $host = "localhost";
-$user = "root";
-$password = "root";
+$user = "tea";
+$password = "tea";
 $database = "cadastro_teasite";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
