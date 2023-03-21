@@ -1,4 +1,9 @@
 <?php
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 // Informações de conexão com o banco de dados
 $host = "152.67.45.231";
 $user = "tea";
