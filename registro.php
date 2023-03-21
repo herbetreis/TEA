@@ -5,11 +5,24 @@ $user = "tea";
 $password = "tea";
 $database = "cadastro_teasite";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($host, $user, $password, $database);
 
 // Verifique se a conexão foi bem-sucedida
 if ($conn->connect_error) {
     die("Erro de conexão: " . $conn->connect_error);
+}
+
+// Crie a tabela no banco de dados, caso ela não exista
+$sql = "CREATE TABLE IF NOT EXISTS usuarios (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL,
+    senha VARCHAR(255) NOT NULL
+)";
+
+if ($conn->query($sql) === TRUE) {
+    echo "Tabela criada com sucesso ou já existente!";
+} else {
+    echo "Erro ao criar tabela: " . $conn->error;
 }
 
 // Recupere os dados do formulário
