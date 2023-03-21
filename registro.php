@@ -1,6 +1,6 @@
 <?php
 // Informações de conexão com o banco de dados
-$host = "localhost";
+$host = "152.67.45.231";
 $user = "tea";
 $password = "tea";
 $database = "cadastro_teasite";
