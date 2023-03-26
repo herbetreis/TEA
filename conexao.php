@@ -1,4 +1,8 @@
 <?php
+
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
 $servername = "localhost"; // endereço do servidor de banco de dados
 $username = "root"; // nome de usuário do banco de dados
 $password = ""; // senha do usuário do banco de dados
