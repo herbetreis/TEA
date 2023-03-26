@@ -90,9 +90,50 @@
   color: #EF3B3A;
 }
 body {
-  background: #ffffff; /* fallback for old browsers */
+  background: #ffffff; /* plano b para navegadores mais antigos */
   background: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
 }
+
+
+
+
+/* começo da página sobre*/
+
+.titulo{ /* titulo*/
+  margin: 0px;
+  text-decoration: none;
+  text-align: center;
+  position:initial;
+  bottom: 0px;
+  width: 100%;
+  height: 200px;
+  color:rgb(3,70,156);
+ 
+
+}
+.informação{/*descrição*/
+  width: 50%;
+  margin:auto;
+  color:rgb(3,70,156);
+} /* final da página sobre*/
+
+
+
+
+.footer{ /* começo do rodapé*/
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+  
+  color: #ffffff;
+  
+}
+
+.text-footer{
+  margin: 0px;
+  text-decoration: none;
+  color: aqua;
+}/* fim do rodapé*/

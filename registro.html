@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #3F5FAA;"> <!--INICIO DO CABECALHO--> 
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #004AAD"> <!--INICIO DO CABECALHO--> 
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">TEA SITE</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +23,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Localizar Profissionais</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">O que você precisa saber</a>
+                <a class="nav-link active" aria-current="page" href="./sobre.html">O que você precisa saber</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Seja um Parceiro</a>
@@ -36,32 +36,22 @@
           </div>
         </div>
       </nav> <!-- FIM DO CABECALHO--> 
-    <div class="register-page">
+    <div class="register-page"> <!-- inicio da classe de registro-->
         <div class="form">
           <img src="./img/logo_tea.png" alt="Imagem">
           <p class=h3>Registro</p>
-          <form id="form-registro" action="processa_registro.php" method="post">
+          <form id="form-registro" action="registro.php" method="post">
             <div class="form-group">
-              <label for="registro_nome">Nome</label>
-              <input type="text" class="form-control" id="registro_nome" name="nome" aria-describedby="nomeHelp" placeholder="Digite o nome">
-            </div>
-            <div class="form-group">
-              <label for="registro_email">E-mail</label>
-              <input type="email" class="form-control" id="registro_email" name="email" aria-describedby="emailHelp" placeholder="Digite o e-mail">
+              <label for="exampleInputEmail1">E-mail</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
             </div>
             <div class="form-group">
-              <label for="registro_senha">Password</label>
-              <input type="password" class="form-control" id="registro_senha" name="senha" placeholder="Digite a senha">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
             </div>
-            <div class="form-group">
-            <label for="registro_confirmar_senha">Confirmar Password</label>
-            <input type="password" class="form-control" id="registro_confirmar_senha" name="confirmar_senha" placeholder="Confirme a senha">
-            </div>
-            <button type="submit" class="btn btn-primary">Registrar</button>
-            </form>
-            </div>
-            </div>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-cZ25NlX9cyo8JqvNJRjkpq3JtIFyLs0sD68wUG84dRURBh+WZPxIfY+GIB2xn0FF" crossorigin="anonymous"></script>
-            
-              </body>
-            </html>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div> <!-- fim da calsse de registro-->
+  </body>
+</html>
