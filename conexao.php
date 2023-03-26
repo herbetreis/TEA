@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost"; // endereço do servidor de banco de dados
 $username = "root"; // nome de usuário do banco de dados
-$password = "root"; // senha do usuário do banco de dados
+$password = ""; // senha do usuário do banco de dados
 $dbname = "tea"; // nome do banco de dados
 
 // Cria conexão
