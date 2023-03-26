@@ -1,6 +1,9 @@
 <?php
 include 'conexao.php';
 
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
 // Verifica se o formulário foi submetido
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Processa os dados do formulário
