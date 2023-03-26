@@ -40,18 +40,29 @@
         <div class="form">
           <img src="./img/logo_tea.png" alt="Imagem">
           <p class=h3>Registro</p>
-          <form id="form-registro" action="registro.php" method="post">
+          <form id="form-registro" action="processa_registro.php" method="post">
             <div class="form-group">
-              <label for="exampleInputEmail1">E-mail</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <label for="registro_nome">Nome</label>
+              <input type="text" class="form-control" id="registro_nome" name="nome" aria-describedby="nomeHelp" placeholder="Digite o nome">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <label for="registro_email">E-mail</label>
+              <input type="email" class="form-control" id="registro_email" name="email" aria-describedby="emailHelp" placeholder="Digite o e-mail">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
-      </div>
-  </body>
-</html>
+            <div class="form-group">
+              <label for="registro_senha">Password</label>
+              <input type="password" class="form-control" id="registro_senha" name="senha" placeholder="Digite a senha">
+            </div>
+            <div class="form-group">
+            <label for="registro_confirmar_senha">Confirmar Password</label>
+            <input type="password" class="form-control" id="registro_confirmar_senha" name="confirmar_senha" placeholder="Confirme a senha">
+            </div>
+            <button type="submit" class="btn btn-primary">Registrar</button>
+            </form>
+            <p class="message">Já é registrado? <a href="./login.html">Entre aqui</a></p>
+            </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-cZ25NlX9cyo8JqvNJRjkpq3JtIFyLs0sD68wUG84dRURBh+WZPxIfY+GIB2xn0FF" crossorigin="anonymous"></script>
+            
+              </body>
+            </html>
