@@ -7,7 +7,9 @@
 }
 
 .containerproje{
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
     /* inicio do slide */
 .containerproje .slide-container .slide{
