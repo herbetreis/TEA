@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.containerproje{
+    position: relative;
+}
+    /* inicio do slide */
+.containerproje .slide-container .slide{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 9%;
+    padding-bottom: 70px;
+}
+    /* animação do slide */
+.containerproje .slide-container .slide .contentproje{
+    flex: 1 1 350px;
+    animation: slideContent .4s linear .4s backwards;
+}
+
+@keyframes slideContent{0%
+{
+    opacity: 0;
+    transform: translateX(-50px);
+}
+}
+
+
+
+/* subtitulo */
+.containerproje .slide-container .slide .contentproje p{
+    font-size: 16px;
+    color:rgb(3,70,156);
+    font-family: 'Noto Sans', sans-serif;
+    width: 40%;
+    height: 10%;
+
+
+}
+
+
+
+/* para mostra apenas o primeiro slide e esconder os outros 2*/
+.containerproje .slide-container{
+    display: none;
+}
+
+.containerproje .slide-container.active{
+    display: block;
+}
+    /* imagem 1 do slide */
+.containerproje .slide-container:nth-child(1) .slide{
+    background: url(/img/TEA\ imagemNova.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 50vw;
+    height: 50vh;
+  
+}
+    /* imagem 2 do slide */
+.containerproje .slide-container:nth-child(2) .slide{
+    background: url(/img/TEA\ imagemNova.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 50vw;
+    height: 50vh;
+}
+    /* imagem 3 do slide */
+.containerproje .slide-container:nth-child(3) .slide{
+    background: url(/img/TEA\ imagemNova.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 50vw;
+    height: 50vh;
+}
+
+
+
+@media(max-width: 500px){
+    .containerproje #prev{
+        left: 0px;
+        top: 60%;
+    }
+
+    .containerproje #next{
+        right: 0px;
+        top: 60%;
+    }
+
+
+    .containerproje .slide-container .slide .contentproje p{
+        font-size: 16px;
+        color: #ffffff;
+        font-family: 'Noto Sans', sans-serif;
+        width: 70%;
+        height: 10%;
+    
+    }
+}
+
+.footer{ /* começo do rodapé*/
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    
+    color: #ffffff;
+    
+  }
+.text-footer{
+    margin: 0px;
+    text-decoration: none;
+    color: aqua;
+  }/* fim do rodapé*/
