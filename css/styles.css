@@ -97,11 +97,7 @@ body {
   -moz-osx-font-smoothing: grayscale;      
 }
 
-
-
-
 /* começo da página sobre*/
-
 .titulo{ /* titulo*/
   margin: 0px;
   text-decoration: none;
@@ -111,23 +107,18 @@ body {
   width: 100%;
   height: 200px;
   color:rgb(3,70,156);
- 
+ }
 
-}
 .informação{/*descrição*/
   width: 50%;
   margin:auto;
   color:rgb(3,70,156);
 } /* final da página sobre*/
 
-
-
-
 .footer{ /* começo do rodapé*/
   text-align: center;
   bottom: 0px;
   width: 100%;
-  
   color: #ffffff;
   
 }
@@ -137,3 +128,15 @@ body {
   text-decoration: none;
   color: aqua;
 }/* fim do rodapé*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slick-slide img {
+  max-width: 100%;
+  height: auto;
+}
