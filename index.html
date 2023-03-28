@@ -14,6 +14,8 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <!-- slide show arrows-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- Adicionando a biblioteca jQuery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Link CSS plugin Slick -->
@@ -100,6 +102,7 @@
         $(document).ready(function(){
           $('.slideshow').slick({
             arrows: true, // Adicionando setas
+            dots: true, // Adicionando pontos de paginação
             autoplay: true,
             fade: true,
             autoplaySpeed: 2000

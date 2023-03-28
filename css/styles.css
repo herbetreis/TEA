@@ -154,3 +154,25 @@ body {
   padding: 10px;
 }
 
+.slick-prev:before, .slick-next:before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 24px;
+  line-height: 1;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.slick-prev:before {
+  content: "\f060";
+}
+
+.slick-next:before {
+  content: "\f061";
+}
+
+.slick-arrow {
+  z-index: 30;
+  position: relative;
+  display: block;
+}
+
