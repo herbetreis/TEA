@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliar Perfil de Usuário</title>
+	<link rel="stylesheet" type="text/css" href="/css/avaliacao.css">
+</head>
+<body>
+	<header>
+		<h1>Avaliar profissional</h1>
+	</header>
+	<main>
+		<form>
+			<label for="usuario">profissional:</label>
+			<input type="text" id="usuario" name="usuario"><br><br>
+			<label for="avaliacao">Avaliação:</label>
+			<select id="avaliacao" name="avaliacao">
+				<option value="0">0 Estrelas</option>
+				<option value="1">1 Estrela</option>
+				<option value="2">2 Estrelas</option>
+				<option value="3">3 Estrelas</option>
+				<option value="4">4 Estrelas</option>
+				<option value="5">5 Estrelas</option>
+			</select><br><br>
+			<label for="comentario">Comentário:</label><br>
+			<textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br><br>
+			<input type="submit" value="Enviar Avaliação">
+		</form>
+	</main>
+</body>
+</html>
