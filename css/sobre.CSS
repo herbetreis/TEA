@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    background-color: aqua;
+    background-image: url(/img/pexels-tara-winstead-8386114.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.banner-text{
+    width: 70%;
+    background-color: #ffffff;
+}
+/* rodapé*/
+section,footer{
+    padding: 54px 0;
+    
+}
+/*banner sobre o Autismo*/
+.banner{
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+.banner .banner-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+.banner .banner-text h1{
+    font-size: 96px;
+    color: #4f9cf9;
+}
+.banner .banner-text p{
+    font-size: 20px;
+    color: black;
+    margin: 30px 30px;
+    text-align: justify;
+    text-indent: 40px;
+}
+.banner .banner-text p1{
+    font-size: 30px;
+    color:#4f9cf9;
+    margin: 30px 30px;
+}/* fim do banner sobre o autismo*/
+
+/* animação quando mouse passar por cima do cabeçalho*/
+nav div div ul li a::after{
+    content: "";
+    background-color:cyan;
+    height: 3px;
+    width: 0%;
+    display: block;
+    transition: 0.6s;
+}
+nav div div ul li a:hover::after{
+    width: 100%;
+}/* fim da animação quando mouse passar por cima do cabeçalho*/
+
+/*inicio de curiosidades*/
+.curiosidades{
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    
+}
+.container .curiosidades-text{
+    margin: 20px ;
+    text-align: center;
+    padding: 60px 90px;
+}
+.container .curiosidades-text h2{
+    font-size: 100px;
+    color:#4f9cf9;
+}
+/*inicio cinema*/
+.cinema .container{
+    display: flex;
+    align-items: center;
+}
+.cinema .cinema-text{
+    width: 100%;
+    color:#4f9cf9;
+    margin: 0px;
+    text-align: center;
+    padding: 30px 90px;
+
+}
+.cinema .cinema-text h3{
+    font-size: 50px;
+
+}
+.cinema-p .container{
+    display: flex;
+    align-items: center;
+}
+.cinema-p .cinema-text2 {
+    width: 50%;
+    padding: 0 40px;
+    color:black;
+    font-size: 19px;
+    text-align: justify;
+    text-indent: 40px;
+
+}
+.cinema-p .cinema-img{
+    width: 50%;
+
+}
+.cinema-p .cinema-img img{
+    width: 100%;
+}
+
+/*fim cinema*/
+/*inicio do dicas*/
+
+.dicas1 .container{
+    display: flex;
+    align-items: center;
+}
+.dicas1 .dicas-text{
+    width: 100%;
+    color:#4f9cf9;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 90px;
+
+}
+.dicas1 .dicas-text h3{
+    font-size: 50px;
+
+}
+.dicas .dicas-text{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    padding: 30px 90px;
+    
+}
+
+.dicas .dicas-text p {
+    width: 100%;
+    padding: 0 40px;
+    color:black;
+    text-align: justify;
+    text-indent: 40px;
+
+}
+/*fim do curiosidades*/
+.depoimentos h3{
+    text-align: center;
+    color: #4f9cf9;
+}
+.depoimentos p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.depoimentos p1{
+    text-align:center;
+}
+.cards{
+    display:inline-flex;
+    justify-content:center;
+}
+.depoimentos .card-item{
+    background-color: #d3e6fd;
+    margin: 8px;
+    border-radius: 14px;
+    text-align:center;
+    width: 350px;
+    
+}
+.depoimentos .card-item img{
+    border-radius: 100px;
+    width: 80px;
+    display: block;
+    margin: 10px auto;
+}
+.depoimentos .card-item .nome-user{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+.depoimentos .card-item .entrevista-user{
+    font-size: 15px;
+    padding: 0 15px;
+    transition: 0.3s;
+}
+.depoimentos .card-item .estrelas{
+    margin: 15px 0;
+    border-top: 2px solid #71767a23;
+}
+.depoimentos .card-item .estrelas i{
+    color: #4f9cf9;
+    margin-top: 15px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.depoimentos .card-item:hover{
+    background-color: #4f9cf9;
+    margin-top: -5px;
+}
+
+.depoimentos .card-item:hover .nome-user,
+.depoimentos .card-item:hover .entrevista-user,
+.depoimentos .card-item:hover .estrelas i{
+    color:white;
+}
+.footer{
+    background-color: #4f9cf9;
+    text-align: center;
+}
+.footer i{
+    color: #4f9cf9;
+    font-size: 19px;
+    background-color:white;
+    padding: 2px;
+    margin: 3px;
+    border-radius: 10px;
+}
+.footer .p{
+    margin-top: 10px;
+    color: white;
+}
