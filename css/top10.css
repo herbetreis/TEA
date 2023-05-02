@@ -112,9 +112,8 @@
   header {
 	background-color: #4f9cf9;
 	color: white;
-	padding: 60px;
-    height: 50px;
 	text-align: center;
+  
 }
 h1 { /* titulo*/
 	font-size: 36px;
@@ -146,3 +145,19 @@ p {
 	font-size: 18px;
 	color:black;
 }
+
+.fa-star {
+   color: gold;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/*banner sobre o Autismo*/
+.banner{
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+}
+
+
