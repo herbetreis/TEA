@@ -110,9 +110,12 @@
     width: 100%;
   }/* fim da animação quando mouse passar por cima do cabeçalho*/
   header {
-	background-color: #4f9cf9;
+	background-color: #034397;
 	color: white;
 	text-align: center;
+  background-position: center; /*CENTRALIZANDO O HEADER */
+  background-size: cover; /*OCUPAR TODA O ESPAÇAMENTO DO HEADER*/
+  background-attachment: fixed; /*EFEITO PARALAX */
   
 }
 h1 { /* titulo*/
@@ -140,6 +143,10 @@ h2 {
 	font-size: 24px;
 }
 
+header h2{
+color: #000000;
+}
+
 p {
 	margin: 0;
 	font-size: 18px;
@@ -153,11 +160,22 @@ a {
   text-decoration: none;
   color: inherit;
 }
-/*banner sobre o Autismo*/
+
 .banner{
   display: flex;
   justify-content: center;
   background-size: cover;
+  background-color: #ffffff;
+}
+.banner-text{
+  width: 100%;
+  background-color: #ffffffd5;
+  border-radius: 20px; /* Define o raio dos cantos arredondados */
+}
+header form{
+  color: #000000;
+	padding: 10px;
+  
 }
 
 

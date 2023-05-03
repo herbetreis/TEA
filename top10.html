@@ -61,7 +61,7 @@
               <a class="nav-link active" aria-current="page" href="./login.html">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Localizar Profissionais</a>
+              <a class="nav-link active" aria-current="page" href="./localizar.html">Localizar Profissionais</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="./sobre.html">O que você precisa saber</a>
@@ -79,17 +79,26 @@
     </nav>
     <!-- FIM DO CABECALHO-->
       <header style="background-image: url('/img/background.png')"> <!-- ADICIONANDO BACKGROUND DO SITE POR PAGINA-->
-        <section class="banner"style="">
-          <div class="banner-text">
+        <br>
         <h1>Profissionais recomendados pelos usuários</h1>
-    </header>
     <main>
         <ol>
+          <div class="banner-text">
+            <form>
+              <label for="filtro">Filtrar por:</label>
+              <select id="filtro" name="filtro">
+                <option value="">Escolha uma opção</option>
+                <option value="opcao1">Estrelas</option>
+                <option value="opcao2">Proximo de mim</option>
+                <option value="opcao3">Atende Plano</option>
+              </select>
+              <input type="submit" value="Filtrar">
+            </form>
+            
             <li>
-              
                 <h2>Top 1</h2>
                 <img src="./img/profession-g31538dd13_640.png" style="width: 10%; height: auto;" class="img-right">
-                <p>Profissional: Giovanna Candinho dos Santos</p>                 
+                <p>USER_PROFISSIONAL 01</p>                 
                 <span class="fa fa-star"></span>
                 <span class="fa fa-star"></span>
                 <span class="fa fa-star"></span>
@@ -103,7 +112,7 @@
               <p></p>
                 <h2>Top 2</h2>
                 <img src="./img/profession-g31538dd13_640.png" style="width: 10%; height: auto;" class="img-right">
-                <p>Profissional: Guilherme Buenos Ayres de Brito 4.8</p>
+                <p>USER_PROFISSIONAL 02</p>
                 <span class="fa fa-star"></span>
                 <span class="fa fa-star"></span>
                 <span class="fa fa-star"></span>
@@ -116,7 +125,7 @@
             <li>
                 <h2>Top 3</h2>
                 <img src="./img/profession-g31538dd13_640.png" style="width: 10%; height: auto;" class="img-right">
-                <p>Profissional: Herbet DIas Alves Reis 4.7</p>
+                <p>USER_PROFISSIONAL 03</p>
                 <span class="fa fa-star"></span>
                 <span class="fa fa-star"></span>
                 <span class="fa fa-star"></span>
@@ -129,7 +138,7 @@
             <li>
                 <h2>Top 4</h2>
                 <img src="./img/profession-g31538dd13_640.png" style="width: 10%; height: auto;" class="img-right">
-                <p>Profissional: Rodrigo Fernandes de Lima 4.5</p>
+                <p>USER_PROFISSIONAL 04</p>
                 <span class="fa fa-star"></span>
                 <span class="fa fa-star"></span>
                 <span class="fa fa-star-o"></span>
@@ -217,9 +226,8 @@
                   <br>
                   <a src href="teste.html">Endereço consultório</a src>
             </li>
+          </header>
             <!-- Adicione mais itens conforme necessário -->
-          </div>
-    </section>
         </ol>
     </main>
   </body>
